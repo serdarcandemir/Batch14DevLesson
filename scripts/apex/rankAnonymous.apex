@@ -1,0 +1,23 @@
+RankHandler rh= new RankHandler();
+string p1= rh.rankPrize(1);
+system.debug('P1 is => '+p1);
+string p2= rh.rankPrize(2);
+system.debug('P2 is => '+p2);
+string p3= rh.rankPrize(3);
+system.debug('P3 is => '+p3);
+string p5= rh.rankPrize(5);
+system.debug('P5 is => '+p5);
+string p11= rh.rankPrize(11);
+system.debug('P11 is => '+p11);
+
+RankHandler rh2= new RankHandler();
+string ps1= rh2.rankPrizeSwitch(1);
+system.debug('Ps1 is => '+ps1);
+string ps2= rh2.rankPrizeSwitch(2);
+system.debug('Ps2 is => '+ps2);
+string ps3= rh2.rankPrizeSwitch(3);
+system.debug('Ps3 is => '+ps3);
+string ps5= rh2.rankPrizeSwitch(5);
+system.debug('Ps5 is => '+ps5);
+string ps11= rh2.rankPrizeSwitch(11);
+system.debug('Ps11 is => '+ps11);
